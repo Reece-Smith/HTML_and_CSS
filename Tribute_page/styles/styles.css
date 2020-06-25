@@ -29,7 +29,15 @@ nav{
     padding-top:5vh;
     padding-bottom:5vh;
     background-color:white;
+    display:flex;
+    justify-content: space-around;
+    position: sticky;
+    top:0;
 }
 nav a{
-
+    text-decoration: none;
+    color:black;
+}
+nav a:active{
+    color:black;
 }
