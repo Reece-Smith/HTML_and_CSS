@@ -24,12 +24,19 @@ header{
     margin:auto;
 }
 nav{
-    text-align: center;
+    display:flex;
     padding-bottom:1.5vh;
     padding-top:5vh;
     padding-bottom:5vh;
     background-color:white;
+    justify-content: space-around;
+    position:sticky;
+    top:0;
 }
 nav a{
-
+    text-decoration: none;
+    color:black;
+}
+nav a:active{
+    color:black;
 }
