@@ -39,8 +39,25 @@ nav{
 nav a{
     text-decoration: none;
     color:black;
+    font-size:1em;
 }
 nav a:active{
     color:black;
 }
+#history-wrapper{
+    display:flex;
+    align-items: center;
+}
+#history-title{
+    text-align: center;
+}
+.articles{
+    margin-top:10vh;
+    margin-left:5vw;
+    margin-right:5vw;
+}
+figure img{
+    width: 40vw;
+}
+
 
