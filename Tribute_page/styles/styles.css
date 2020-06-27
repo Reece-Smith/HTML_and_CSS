@@ -39,8 +39,48 @@ nav{
 nav a{
     text-decoration: none;
     color:black;
+    font-size:1.5em;
 }
 nav a:active{
     color:black;
+}
+#history-wrapper, #motorsports-wrapper{
+    display:flex;
+    align-items: center;
+}
+#history-title, #motorsports-title, #vehicles-title {
+    text-align: center;
+}
+.articles{
+    margin-top:10vh;
+    margin-left:5vw;
+    margin-right:5vw;
+}
+figure img{
+    width: 40vw;
+}
+#motorsports-wrapper{
+    flex-direction: row-reverse;
+}
+#motorsports{
+    background-color:rgb(15, 29, 228);
+    padding-top: 3vh;
+    padding-bottom:3vh;
+    color:white;
+    padding-left:2vw;
+    padding-right:2vw;
+}
+#vehicles li{
+    line-height: 40px;
+}
+@media all and (max-width:370px){
+    nav a{
+        font-size:1em;
+    }
+}
+@media all and (max-width:450px){
+    figure{
+        display: none;
+    }
 }
 
