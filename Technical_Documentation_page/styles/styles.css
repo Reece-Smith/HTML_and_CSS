@@ -1,4 +1,51 @@
+/*Scroll behavior set*/
+html{
+    scroll-behavior: smooth;
+}/* Font family and margin of the webpage set */
 body{
     font-family: 'Abel', sans-serif;
     margin:0;
+}
+/*Width of the main section adjusted and position moved to the right*/
+main{
+    width:59vw;
+    position:absolute;
+    right:0;
+}
+/*Width of the header adjusted and position fixed to the left */
+header{
+    position:fixed;
+    width:40vw;
+    text-align: center;
+    background-color:rgba(14, 54, 187, 1);
+    height:100vh;
+}
+/*Title colored and bottom border added*/
+h1{
+    color:white;
+    border-bottom: 3px solid black;
+    padding-bottom: 8px;
+}
+/*Nav links font-size changed and organised in a column*/
+nav{
+    display:flex;
+    flex-direction: column;
+    font-size:1.5em;
+    line-height: 60px;
+    width:25vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+/*Nav links text decoration removed and colors added*/
+.nav-link{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    margin-top:5vh;
+}
+/*Nav link changes color while being hovered over*/
+.nav-link:hover{
+    background-color: white;
+    color:black;
+    transition:0.5s;
 }
