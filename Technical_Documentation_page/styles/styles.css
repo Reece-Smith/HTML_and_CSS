@@ -49,6 +49,11 @@ nav{
     color:black;
     transition:0.5s;
 }
+/* Margin of the sectiosn adjusted */
+section{
+    margin-left:2vw;
+    margin-right:2vw;
+}
 /* Navbar font-size and line height made more responsive */
 @media all and (max-width:770px){
     header h1{
