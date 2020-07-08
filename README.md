@@ -19,7 +19,7 @@ Make sure you don't take any of the files out of their directories as this will 
 # Technical Documentation page
 
 This is a mock technical documentation page. 
-To get this page to run properly you'll need all of the contents of the "technical_documentation_page" directory. 
+To get this page to run properly you'll need all of the contents of the "Technical_Documentation_page" directory. 
 Make sure you don't take any of the files out of their directories as this will ruin the HTML links.
 
 ## Authors
