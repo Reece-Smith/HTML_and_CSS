@@ -49,3 +49,13 @@ nav{
     color:black;
     transition:0.5s;
 }
+/* Navbar font-size and line height made more responsive */
+@media all and (max-width:770px){
+    header h1{
+        font-size:1.2em;
+    }
+    header nav{
+        font-size:1em;
+        line-height: 20px;
+    }
+}
