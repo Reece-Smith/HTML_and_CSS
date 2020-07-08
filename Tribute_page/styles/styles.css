@@ -1,10 +1,13 @@
+/* Set the scroll behavior of the page*/
 html{
     scroll-behavior: smooth;
 }
+/* Set the font family and margin of the web page to zero*/ 
 body{
     font-family: 'Ubuntu', sans-serif;
     margin:0;
 }
+/* Header background set with image. Image adjusted to fit page*/
 header{
     background-image: linear-gradient(rgb(255, 255, 255) 10%,rgba(20, 30, 173, 0.233),rgba(202, 199, 14, 0.247)),url("../images/subaru-background.jpg");
     width:100vw;
@@ -13,6 +16,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* Page title styled and background color added*/
 #page-title{
     font-size:3em;
     color:black;
@@ -21,10 +25,12 @@ header{
     margin-top:2vh;
     background-color: rgba(94, 94, 94, 0.479);
 }
+/* Size of the page title background adjusted*/
 #page-title-wrapper{
     width:60vw;
     margin:auto;
 }
+/* Navbar styled and fixed to the top of the screen*/
 nav{
     text-align: center;
     padding-bottom:1.5vh;
@@ -36,32 +42,40 @@ nav{
     position: sticky;
     top:0;
 }
+/* Nav links have style removed and color changed */
 nav a{
     text-decoration: none;
     color:black;
     font-size:1.5em;
 }
+/* Nav links remain black after being clicked */
 nav a:active{
     color:black;
 }
+/* Articles wrapped and flexed relative to each other */
 #history-wrapper, #motorsports-wrapper{
     display:flex;
     align-items: center;
 }
+/* Title of each article centered */
 #history-title, #motorsports-title, #vehicles-title {
     text-align: center;
 }
+/* Articles position adjusted */
 .articles{
     margin-top:10vh;
     margin-left:5vw;
     margin-right:5vw;
 }
+/* Figure image size adjusted */
 figure img{
     width: 40vw;
 }
+/* Motorsports article contents flipped */
 #motorsports-wrapper{
     flex-direction: row-reverse;
 }
+/* Motorsports article styled and positioned */ 
 #motorsports{
     background-color:rgb(15, 29, 228);
     padding-top: 3vh;
@@ -70,12 +84,15 @@ figure img{
     padding-left:2vw;
     padding-right:2vw;
 }
+/* Vehicles list item line height adjusted */
 #vehicles li{
     line-height: 40px;
 }
+/* Vehicle section position adjusted */
 #vehicles{
     margin-bottom: 10vh;
 }
+/* Footer background color and size adjusted */
 footer{
     background-color:black;
     color:white;
@@ -83,15 +100,18 @@ footer{
     padding-top:8vh;
     padding-bottom:8vh;
 }
+/* Footer positioned adjusted*/
 footer p{
     margin-bottom:0;
     margin-top:0;
 }
+/* Font-size adjusted for easier reading when the width of the viewport is < 370px*/
 @media all and (max-width:370px){
     nav a{
         font-size:1em;
     }
 }
+/*Figures are removed when the width of the viewport is < 650 px*/
 @media all and (max-width:650px){
     figure{
         display: none;
