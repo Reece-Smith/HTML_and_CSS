@@ -6,7 +6,7 @@ This repository contains a portfolio of my HTML and CSS projects.
 
    * [Tribute page](#Tribute-page)
    * [Technical Documentation page](#Technical-Documentation-page)
-   * Product Landing page 
+   * [Product Landing page](#Product-Landing-page)
    * Survey Form
    * [Authors](#Authors)
    
@@ -21,6 +21,13 @@ Make sure you don't take any of the files out of their directories as this will 
 This is a mock technical documentation page. 
 To get this page to run properly you'll need all of the contents of the "Technical_Documentation_page" directory. 
 Make sure you don't take any of the files out of their directories as this will ruin the HTML links.
+
+## Product Landing page
+
+This is a mock product landing page for an artist. 
+To get this page to run properly you'll need all of the contents of the "product_landing_page" directory. 
+Make sure you don't take any of the files out of their directories as this will ruin the HTML links.
+
 
 ## Authors
 
