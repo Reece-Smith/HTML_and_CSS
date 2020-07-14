@@ -7,6 +7,63 @@ body{
     font-family:'Lacquer', sans-serif;
     margin:0;
 }
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+/* Hoover effect added to social media buttons*/
+.fa:hover {
+    color:red;
+    background-color: black;
+    transition:0.5s;
+}
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+/* Instagram*/
+.fa-instagram {
+    background: #430297;
+    color: white;
+}
+header{
+    height:100vh;
+    background-image: url(../images/killer.jpg);
+    background-size:cover;
+    background-position:50% 40%;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    position:sticky;
+}
+#navWrapper, #socialMedia{
+    margin-top:6vh;
+}
+#navWrapper a{
+    text-decoration: none;
+    color:white;
+    font-size:1.5em;
+    margin-right:4vw;
+}
+#navWrapper a:hover{
+    color:red;
+    transition:0.5s;
+}
+/*Footer font adjusted*/
 #footer{
     font-family: 'Hind Madurai', sans-serif; 
 }
