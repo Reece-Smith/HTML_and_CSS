@@ -39,26 +39,37 @@ body{
     background: #430297;
     color: white;
 }
+/*Height and background image of the header set*/
 header{
-    height:100vh;
+    height:90vh;
     background-image: url(../images/killer.jpg);
     background-size:cover;
-    background-position:50% 40%;
+    background-position:50% 38%;
 }
+/*Navbar flexed*/
 nav{
     display:flex;
-    justify-content: space-around;
-    position:sticky;
 }
-#navWrapper, #socialMedia{
+/*nav bar positioned and fixed*/
+#navWrapper{
+    position:fixed;
+    left:15vw;
     margin-top:6vh;
 }
+/*Social media buttons positioned and fixed*/
+#socialMedia{
+    position:fixed;
+    right:15vw;
+    margin-top:6vh;
+}
+/*Navbar links styled*/
 #navWrapper a{
     text-decoration: none;
     color:white;
     font-size:1.5em;
     margin-right:4vw;
 }
+/*Navbar links hover styled*/
 #navWrapper a:hover{
     color:red;
     transition:0.5s;
@@ -66,4 +77,9 @@ nav{
 /*Footer font adjusted*/
 #footer{
     font-family: 'Hind Madurai', sans-serif; 
+}
+@media all and (max-width:420px){
+    #navWrapper .navLinks{
+        font-size:1em;
+    }
 }
