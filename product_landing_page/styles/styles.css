@@ -40,34 +40,28 @@ body{
     color: white;
 }
 header{
-    display:flex;
     height:100vh;
+    background-image: url(../images/killer.jpg);
+    background-size:cover;
+    background-position:50% 40%;
 }
 nav{
     display:flex;
+    justify-content: space-around;
+    position:sticky;
 }
-#socialMedia{
-    position: fixed;
-    right:30vh;
-    top:7vh;
-}
-#socialMedia a{
-    margin-right:0.2vw;
-}
-#navWrapper{
-    position:fixed;
-    top:7vh;
-    left:10vw;
+#navWrapper, #socialMedia{
+    margin-top:6vh;
 }
 #navWrapper a{
     text-decoration: none;
-    color:black;
+    color:white;
     font-size:1.5em;
-    margin-left:2vw;
+    margin-right:4vw;
 }
 #navWrapper a:hover{
     color:red;
-    transition:0.9s;
+    transition:0.5s;
 }
 /*Footer font adjusted*/
 #footer{
