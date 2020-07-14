@@ -79,34 +79,36 @@ nav{
 #footer{
     font-family: 'Hind Madurai', sans-serif; 
 }
+/*Main section background image and size set*/
 main{
     height:100vh;
     background-image: url(../images/background.jpg);
     background-size: cover;
 }
+/*Section background image and size set*/
 section{
     height:100vh;
     background-image: url(../images/background2.jpg);
     background-size: cover;
 }
-#forrest{
+/*Figure image margin and width set*/
+#forrest #woman{
     margin-top:20vh;
     width:40vw;
 }
-#woman{
-    margin-top:20vh;
-    width:40vw;
-}
+/*Figure margin and display flexed*/
 figure{
     margin-top:0;
     display: flex;
 }
+/*Figure caption and button position and font-size set*/
 .figureDiv{
     margin-top:40vh;
     margin-left:10vw;
     font-size:2em;
     text-align: center;
 }
+/*Button styles set*/
 .figureButton{
     background-color: red;
     border:none;
@@ -116,13 +118,35 @@ figure{
     margin-top:5vh;
     transition: 0.5s;
 }
+/*Figure button hover colors set*/
 .figureButton:hover{
     background-color: black;
     color:white;
 }
+/*Caption color set*/
 #womanCaption{
     color: white;
 }
+/*Footer position set*/
+footer{
+    height:10vh;
+    background-color: black;
+    margin-bottom:0;
+    margin-top:0;
+    padding-top:4vh;
+    width:100vw;
+}
+/*Footer p elements positioned*/
+footer p{
+    margin-top:0;
+    margin-bottom:0;
+    color:white;
+    text-align: center;
+}
+footer p a{
+    color:red;
+}
+/*NavWrapper and figure images made more responsive*/
 @media all and (max-width:420px){
     #navWrapper .navLinks{
         font-size:1em;
