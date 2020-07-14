@@ -41,7 +41,7 @@ body{
 }
 /*Height and background image of the header set*/
 header{
-    height:90vh;
+    height:100vh;
     background-image: url(../images/killer.jpg);
     background-size:cover;
     background-position:50% 38%;
@@ -49,6 +49,7 @@ header{
 /*Navbar flexed*/
 nav{
     display:flex;
+    background-image:linear-gradient(rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 }
 /*nav bar positioned and fixed*/
 #navWrapper{
@@ -78,8 +79,55 @@ nav{
 #footer{
     font-family: 'Hind Madurai', sans-serif; 
 }
+main{
+    height:100vh;
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+section{
+    height:100vh;
+    background-image: url(../images/background2.jpg);
+    background-size: cover;
+}
+#forrest{
+    margin-top:20vh;
+    width:40vw;
+}
+#woman{
+    margin-top:20vh;
+    width:40vw;
+}
+figure{
+    margin-top:0;
+    display: flex;
+}
+.figureDiv{
+    margin-top:40vh;
+    margin-left:10vw;
+    font-size:2em;
+    text-align: center;
+}
+.figureButton{
+    background-color: red;
+    border:none;
+    font-family: 'Hind Madurai', sans-serif; 
+    padding:15px 32px;
+    text-align: center;
+    margin-top:5vh;
+    transition: 0.5s;
+}
+.figureButton:hover{
+    background-color: black;
+    color:white;
+}
+#womanCaption{
+    color: white;
+}
 @media all and (max-width:420px){
     #navWrapper .navLinks{
         font-size:1em;
+    }
+    #forrest, #woman{
+        display:none;
     }
 }
