@@ -24,7 +24,7 @@ Make sure you don't take any of the files out of their directories as this will 
 
 ## Product Landing page
 
-This is a mock product landing page for an artist. 
+This is a mock product landing page for an artist advertising their galleries and selling artwork. 
 To get this page to run properly you'll need all of the contents of the "product_landing_page" directory. 
 Make sure you don't take any of the files out of their directories as this will ruin the HTML links.
 
