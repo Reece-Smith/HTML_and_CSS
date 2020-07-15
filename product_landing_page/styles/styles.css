@@ -46,29 +46,36 @@ header{
     background-size:cover;
     background-position:50% 38%;
 }
-/*Navbar flexed*/
+/*Navbar styled and made sticky*/
 nav{
-    display:flex;
-    background-image:linear-gradient(rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background-image:linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0) );
+    height:15vh;
+    position:sticky;
+    top:0;
 }
-/*nav bar positioned and fixed*/
+/*nav bar contents positioned*/
 #navWrapper{
-    position:fixed;
+    position:relative;
     left:15vw;
-    margin-top:6vh;
+    top:5vh;
+    width:85vw;
 }
-/*Social media buttons positioned and fixed*/
+/*Social media buttons positioned*/
 #socialMedia{
-    position:fixed;
-    right:15vw;
-    margin-top:6vh;
+    position:relative;
+    left:68vw;
+    top:0.5vh;
+    width:32vw;
+}
+#socialMedia a{
+    margin-right:1vw;
 }
 /*Navbar links styled*/
 #navWrapper a{
     text-decoration: none;
     color:white;
     font-size:1.5em;
-    margin-right:4vw;
+    margin-left:4vw;
 }
 /*Navbar links hover styled*/
 #navWrapper a:hover{
@@ -79,20 +86,20 @@ nav{
 #footer{
     font-family: 'Hind Madurai', sans-serif; 
 }
-/*Main section background image and size set*/
-main{
+/*Gallery section background image and size set*/
+#gallery{
     height:100vh;
     background-image: url(../images/background.jpg);
     background-size: cover;
 }
-/*Section background image and size set*/
-section{
+/*Shop section background image and size set*/
+#shop{
     height:100vh;
     background-image: url(../images/background2.jpg);
     background-size: cover;
 }
 /*Figure image margin and width set*/
-#forrest #woman{
+#forrest,#woman{
     margin-top:20vh;
     width:40vw;
 }
@@ -150,6 +157,9 @@ footer p a{
 @media all and (max-width:420px){
     #navWrapper .navLinks{
         font-size:1em;
+    }
+    .figureDiv{
+        margin-left:0;
     }
     #forrest, #woman{
         display:none;
