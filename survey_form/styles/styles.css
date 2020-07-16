@@ -2,8 +2,28 @@
 html{
     scroll-behavior: smooth;
 }
-/* Set the font family and margin of the web page to zero*/ 
+/* Set the font family,text-align and position of the body*/ 
 body{
     font-family:"Noto Sans JP",sans-serif;
+    text-align:center;
+    width:100vw;
     margin:0;
+}
+/* Heading font-family, font-size and color set*/
+#title{
+    font-family: 'Amatic SC', cursive;
+    font-size: 4em;
+    color:rgb(46, 129, 224)
+}
+/* form sections moved further apart*/
+.formSections{
+    margin-top:5vh;
+}
+#credit{
+    background-color: black;
+    color:white;
+    width:100vw;
+}
+#credit p{
+    margin-bottom:0;
 }

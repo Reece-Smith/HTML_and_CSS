@@ -7,11 +7,88 @@
         <meta http-equiv="author" content="Reece Smith"/>  
         <link href ="../styles/styles.css" type="text/css" rel="stylesheet"/>
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="../images/favicon.ico"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
     </head>
     <body>
-        
+        <h1 id="title">Survey Form</h1>
+    <hr>
+    <main id="main">
+      <p id="description">Let us know how we can improve this portfolio</p>
+          <form id="survey-form">
+            <div class ="formSections">
+            <label class="labels" for="name" id="name-label">
+              * Name:
+            </label>
+            <input class="personal" id="name" type="text" name="name" required placeholder="Enter your name">
+            <br>
+            <label class="labels" for="email" id="email-label">
+                 * E-mail:
+            </label>
+            <input class="personal" id="email" type="email" name="email" required placeholder="Enter your E-mail">
+            <br>
+            <label class="labels" for="number" id="number-label">
+                 * Age:
+            </label>
+            <input class="personal" id="number" type="number" name="number" required placeholder="Enter your age" min="18" Max="122"> 
+             </div>
+             <div class ="formSections">
+               <label for="dropdown">
+                 What is your current occupation:
+               </label>
+                  <select name="currentPos" id="dropdown">
+                    <option  selected disabled value>Select an option</option>
+                    <option   value="ft-student">Full-Time Student</option>
+                    <option  value="pt-student">Part-Time Student</option>
+                    <option   value="ft-job">Full-Time Employment</option>
+                    <option   value="pt-job">Part-Time Employment</option>
+                    <option   value="preferNo">Prefer not to say</option>
+                    <option  value="other">Other</option>
+                  </select> 
+             </div>
+            <fieldset class ="formSections">
+                 <legend id="recommend-leg">Would you reccomend me as a web developer?</legend>
+                 <label class="recommend-label"for="yes">Definitely</label>
+                 <input class="recommend-input" id="yes" type="radio" name="userRating" value="1">
+                 <label class="recommend-label"for="maybe">Maybe</label>
+                 <input class="recommend-input" id="maybe" type="radio" name="userRating" value="2">
+                 <label class="recommend-label"for="no">No</label>
+                 <input class="recommend-input" id="no" type="radio" name="userRating" value="3">
+                 <label class="recommend-label"for="notSure">Not Sure</label>
+                 <input class="recommend-input" id="notSure" type="radio" name="userRating" value="4">
+             </fieldset>
+             <fieldset class ="formSections">
+                <legend>Which parts of the portfolio could be improved?<br>(Select all that apply)</legend>
+                <label class="improve-label" for="tribute">Tribute Page</label>
+                <input class="improve-input" id="tribute" type="checkbox" name="improve" value="1">
+                <label class="improve-label" for="survey">Survey Page</label>
+                <input class="improve-input"id="survey" type="checkbox" name="improve" value="2">
+                <label class="improve-label" for="landing">Product Landing Page</label>
+                <input class="improve-input"id="landing" type="checkbox" name="improve" value="3">
+                <label class="improve-label" for="doc">Technical Documentation Page</label>
+                <input class="improve-input"id="doc" type="checkbox" name="improve" value="4">
+                <label class="improve-label" for="portfolio">Personal Portfolio Page</label>
+                <input class="improve-input"id="portfolio" type="checkbox" name="improve" value="5">  
+            </fieldset>
+            <div class ="formSections">
+              <label for="comments">
+                * Any comments or suggestions on how to improve?
+              </label>
+              <br>
+              <textarea required id="comments" name="comments" placeholder="Enter your comments here....."></textarea>
+              <br>
+              <button id= "reset" type = "reset">Reset</button>
+              <button id="submit" type="submit">Submit</button>
+            </div>
+          </form>
+        </main>
+        <footer id="credit">
+          <p>
+            Designed and produced by Reece Smith
+          </p>
+          <p>Created my free logo at <a href ="https://logomakr.com/" alt="link to logomakr website">LogoMakr.com</a></p>
+          </footer>
     </body>
 </html>
