@@ -7,7 +7,7 @@ This repository contains a portfolio of my HTML and CSS projects.
    * [Tribute page](#Tribute-page)
    * [Technical Documentation page](#Technical-Documentation-page)
    * [Product Landing page](#Product-Landing-page)
-   * [Survey Form] (#Survey-form)
+   * [Survey Form](#Survey-form)
    * [Authors](#Authors)
    
  ## Tribute page
