@@ -7,7 +7,7 @@ This repository contains a portfolio of my HTML and CSS projects.
    * [Tribute page](#Tribute-page)
    * [Technical Documentation page](#Technical-Documentation-page)
    * [Product Landing page](#Product-Landing-page)
-   * Survey Form
+   * [Survey Form](#Survey-form)
    * [Authors](#Authors)
    
  ## Tribute page
@@ -28,6 +28,11 @@ This is a mock product landing page for an artist advertising their galleries an
 To get this page to run properly you'll need all of the contents of the "product_landing_page" directory. 
 Make sure you don't take any of the files out of their directories as this will ruin the HTML links.
 
+## Survey form
+
+This is a mock survey form to allow a user to leave feedback on my portfolio. 
+To get this page to run properly you'll need all of the contents of the "product_landing_page" directory. 
+Make sure you don't take any of the files out of their directories as this will ruin the HTML links.
 
 ## Authors
 
