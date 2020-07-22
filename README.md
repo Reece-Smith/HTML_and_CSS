@@ -48,6 +48,8 @@ Now that you have all the directories and files, open the "index.html" file loca
 
 ### Front-End Design
 
+![Screenshot of technical documentation page](git_images/tdp.png)
+
 ## Product Landing Page
 
 This is a mock product landing page for an artist advertising their galleries and selling artwork.
@@ -57,6 +59,20 @@ Now that you have all the directories and files, open the "index.html" file loca
 
 ### Front-End Design
 
+#### Product Landing Page header
+
+![Screenshot of product landing page header](git_images/plp_header.png)
+
+#### Product Landing Page Body
+
+![Screenshot of product landing page body](git_images/plp_body2.png)
+
+![Screenshot of product landing page body](git_images/plp_body1.png)
+
+#### Product Landing Page Footer
+
+![Screenshot of product landing page body](git_images/plp_body3.png)
+
 ## Survey Form
 
 This is a mock survey form to allow a user to leave feedback on my portfolio. 
@@ -65,6 +81,8 @@ Make sure you don't take any of the files out of their respected directories as 
 Now that you have all the directories and files, open the "index.html" file located in "survey_form/HTML/" directory and the page will run.
 
 ### Front-End Design
+
+![Screenshot of survey form](git_images/sf.png)
 
 ## Author(s)
 
