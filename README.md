@@ -33,6 +33,12 @@ Now that you have all the directories and files, open the "index.html" file loca
 
 ![Screenshot of tribute page body](git_images/tp_body2.png)
 
+![Screenshot of tribute page body](git_images/tp_body3.png)
+
+#### Tribute Page Footer
+
+![Screenshot of tribute page footer](git_images/tp_body4.png)
+
 ## Technical Documentation Page
 
 This is a mock technical documentation page. 
